@@ -1,0 +1,152 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondo_ajustado">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurante"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A1A"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="2dp"
+        android:background="#B3FFFFFF"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="2.0"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/spinnerRestaurantes"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="5.5"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/spinner_background"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnCargarMesa"
+            android:text="Cargar"
+            android:backgroundTint="#4A4A4A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnNuevoRestauranteBD"
+            android:text="+"
+            android:backgroundTint="#A0A0A0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amigos"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A1A"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="2dp"
+        android:background="#B3FFFFFF"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="2.0"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/spinnerAmigos"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="5.5"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/spinner_background"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnSentarAmigo"
+            android:text="Sentar"
+            android:backgroundTint="#546E7A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnNuevoAmigoBD"
+            android:text="+"
+            android:backgroundTint="#90A4AE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnIrGestion"
+        android:text="IR A GESTIÓN DE CARTA"
+        android:backgroundTint="#4A4A4A"
+        android:textColor="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="8dp">
+    <Button
+        android:id="@+id/btnFotoTicket"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#546E7A"
+        android:textColor="#FFF"
+        android:text="Hacer Foto Ticket"
+        android:layout_marginEnd="4dp"/>
+
+    <Button
+        android:id="@+id/btnLoteTicket"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#90A4AE"
+        android:textColor="#FFF"
+        android:text="Añadir por Lote"
+        android:layout_marginStart="4dp"/>
+</LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/tableMatrizCuentas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FAFAFA" android:padding="8dp"
+                android:layout_marginTop="15dp" />
+
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>

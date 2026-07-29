@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">414877294339</string>
+    <string name="google_api_key" translatable="false">AIzaSyB947JpVZl_yUDvwMUHL9UZ6e4wvoYjsQo</string>
+    <string name="google_app_id" translatable="false">1:414877294339:android:12a9a5d54b756be0049336</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB947JpVZl_yUDvwMUHL9UZ6e4wvoYjsQo</string>
+    <string name="google_storage_bucket" translatable="false">cuentasaparte-305f6.firebasestorage.app</string>
+    <string name="project_id" translatable="false">cuentasaparte-305f6</string>
+</resources>

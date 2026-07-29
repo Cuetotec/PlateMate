@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414877294339",
+    "project_id": "cuentasaparte-305f6",
+    "storage_bucket": "cuentasaparte-305f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414877294339:android:12a9a5d54b756be0049336",
+        "android_client_info": {
+          "package_name": "com.example.cuentasaparte"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB947JpVZl_yUDvwMUHL9UZ6e4wvoYjsQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
